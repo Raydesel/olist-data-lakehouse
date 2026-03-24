@@ -1,0 +1,26 @@
+# Python & Environments
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Terraform (CRITICAL: Do not upload state files!)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Airflow / Astro CLI
+.astro/
+
+# Data Files (Keep the repo lightweight)
+*.csv
+*.parquet
+*.json

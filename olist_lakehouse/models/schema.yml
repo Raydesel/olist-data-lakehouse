@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: "Dimension table for products with English translations."
+    columns:
+      - name: product_key
+        description: "The primary key for this table."
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_order_items
+    description: "The central fact table containing individual items purchased."
+    columns:
+      - name: fact_key
+        tests:
+          - unique
+          - not_null
+      - name: price
+        description: "The price of the item in BRL."
+        tests:
+          - not_null
