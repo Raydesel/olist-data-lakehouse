@@ -24,3 +24,4 @@ logs/
 *.csv
 *.parquet
 *.json
+.ipynb_checkpoints/
