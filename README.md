@@ -13,7 +13,6 @@ This project builds a fully automated, serverless **Data Lakehouse** using the B
 **[Link to Interactive BI Dashboard]** *(Add a link to your Metabase/QuickSight dashboard or a screenshot here)*
 
 ## 🏗️ Architecture
-*(Replace the link below with the actual image of your architecture diagram)*
 ![Olist Lakehouse Architecture](images/architecture_diagram.png)
 
 The pipeline follows a modern Medallion-style Lakehouse architecture:
@@ -35,6 +34,7 @@ The pipeline follows a modern Medallion-style Lakehouse architecture:
 * **Visualization:** Python (Seaborn/Matplotlib) / AWS QuickSight
 
 ## 📊 Data Modeling (Star Schema)
+![Star Schema](images/star_schema.png)
 The transformation layer takes normalized transactional data and converts it into a read-optimized Star Schema centered around order items:
 
 * **Fact Table:** `fact_order_items`
