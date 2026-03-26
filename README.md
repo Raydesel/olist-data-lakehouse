@@ -10,7 +10,9 @@
 ## 📌 Project Overview
 This project builds a fully automated, serverless **Data Lakehouse** using the Brazilian E-Commerce Public Dataset by Olist. It demonstrates a modern ELT (Extract, Load, Transform) workflow, utilizing Infrastructure as Code (IaC), distributed processing, and modern data modeling techniques to prepare raw e-commerce data for Business Intelligence and analytics.
 
-**[Link to Interactive BI Dashboard]** *(Add a link to your Metabase/QuickSight dashboard or a screenshot here)*
+## 📊 Executive Summary Dashboard
+*Built using Metabase connected directly to the Amazon Athena Gold Layer.*
+![Olist Executive Dashboard](images/executive_dashboard.png)
 
 ## 🏗️ Architecture
 ![Olist Lakehouse Architecture](images/architecture_diagram.png)
