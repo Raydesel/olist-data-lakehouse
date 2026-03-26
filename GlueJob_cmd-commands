@@ -1,8 +1,0 @@
-aws s3 cp iceberg_transform.py s3://olist-transformation-zone-4adb3345/scripts/iceberg_transform.py
-
-aws glue start-job-run --job-name olist_iceberg_clean_and_convert
-{
-    "JobRunId": "jr_cf300a2d85d8956995b3483a434f85a3082ac5af26057c033529a8c40201d5c2"
-}
-
-watch -n 2 'aws glue get-job-run --job-name olist_iceberg_clean_and_convert --run-id jr_cf300a2d85d8956995b3483a434f85a3082ac5af26057c033529a8c40201d5c2 --query "JobRun.JobRunState" --output text'
