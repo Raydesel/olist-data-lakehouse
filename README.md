@@ -71,4 +71,3 @@ Navigate to `http://localhost:8080` (admin/admin), unpause the `olist_lakehouse_
 ## 🔮 Future Enhancements
 * Implement **Great Expectations** at the PySpark layer for strict data contracts before data enters the Lakehouse.
 * Set up **GitHub Actions (CI/CD)** to automatically test and deploy dbt models to a production Athena environment upon pull request merges.
-* Connect a live, open-source BI tool like **Metabase** directly to the Athena Iceberg tables.
